@@ -28,7 +28,7 @@ I earned my Ph.D. in Robotics and M.S. in [Electrical and Computer Engineering](
 Prior to that, I reveiced my B.E. in Electrical and Computer Engineering from the [University of Minnesota, Twin Cities](https://cse.umn.edu/college/departments/department-electrical-and-computer-engineering) advised by [Prof. Andrew Lamperski](https://cse.umn.edu/ece/andrew-lamperski).
 I also hold another B.E. in Electrical Engineering from [Beijing Jiaotong University](http://en.ee.bjtu.edu.cn/). 
 
-My research interests lie in Robotics, Motion Planning, and Optimization.
+My research interests lie primarily in Robotics, Motion Planning, and Optimization.
 
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
