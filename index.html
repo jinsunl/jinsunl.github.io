@@ -137,7 +137,7 @@
           <h1 class="post-title">
            <span class="font-weight-bold">Jinsun</span>  Liu
           </h1>
-          <p class="desc">jinsunl [at] umich [dot] edu</p>
+          <p class="desc">jinsunl [at] umich [dot] edu / (734)-355-2021</p>
         </header>
 
         <article>
@@ -188,58 +188,48 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           
 
           <!-- Latest posts -->
-          <h2><a href="/blog/" style="color: inherit;">latest posts</a></h2>
-          <div class="news">
-            <div class="table-responsive" style="max-height: 60vw">
-              <table class="table table-sm table-borderless">
-              
-                <tr>
-                  <th scope="row">Apr 25, 2023</th>
-                  <td>
-                    <a class="news-title" href="/blog/2023/sidebar-table-of-contents/">a post with table of contents on a sidebar</a>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Mar 20, 2023</th>
-                  <td>
-                    <a class="news-title" href="/blog/2023/tables/">displaying beautiful tables with Bootstrap Tables</a>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Mar 20, 2023</th>
-                  <td>
-                    <a class="news-title" href="/blog/2023/table-of-contents/">a post with table of contents</a>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
-
+          
 
           <!-- Selected papers -->
           <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
           <div class="publications">
-            <ol class="bibliography"><li>
+            <ol class="bibliography">
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://journals.aps.org/" rel="external nofollow noopener" target="_blank">PhysRev</a></abbr></div>
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/RSS-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/RSS-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/RSS-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/RSS.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="RSS.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
 
         <!-- Entry bib key -->
-        <div id="PhysRev.47.777" class="col-sm-8">
+        <div id="RSS2023" class="col-sm-8">
         <!-- Title -->
-        <div class="title">Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?</div>
+        <div class="title">RADIUS: Risk-Aware, Real-Time, Reachability-Based Motion Planning</div>
         <!-- Author -->
         <div class="author">
         
 
-        <em>A. Einstein</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" rel="external nofollow noopener" target="_blank">B. Podolsky</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" rel="external nofollow noopener" target="_blank">N. Rosen</a>
-</div>
+        </div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>Phys. Rev.</em>, May 1935
+          <em>Robotics: Science and Systems (RSS)</em>, 2023
         </div>
         <div class="periodical">
           
@@ -248,22 +238,143 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-            <a href="/assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="/assets/pdf/RADIUS.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/roahmlab/Risk_RTD" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1103/PhysRev.47.777"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
+            <p>Deterministic methods for motion planning guarantee safety amidst uncertainty in obstacle locations by trying to restrict the robot from operating in any possible location that an obstacle could be in. Unfortunately, this can result in overly conservative behavior. Chance-constrained optimization can be applied to improve the performance of motion planning algorithms by allowing for a user-specified amount of bounded constraint violation. However, state-of-the-art methods rely either on moment-based inequalities, which can be overly conservative, or make it difficult to satisfy assumptions about the class of probability distributions used to model uncertainty. However, state-of-the-art methods rely either on moment-based inequalities, which can be overly conservative, or make it difficult to satisfy assumptions about the class of probability distributions used to model uncertainty. However, state-of-the-art methods rely either on moment-based inequalities, which can be overly conservative, or make it difficult to satisfy assumptions about the class of probability distributions used to model uncertainty. To address these challenges, this work proposes a real-time, risk-aware reachability based motion planning framework called RADIUS. The method first generates a reachable set of parameterized trajectories for the robot offline. At run time, RADIUS computes a closed-form over-approximation of the risk of a collision with an obstacle. This is done without restricting the probability distribution used to model uncertainty to a simple class (e.g., Gaussian). Then, RADIUS performs real-time optimization to construct a trajectory that can be followed by the robot in a manner that is certified to have a risk of collision that is less than or equal to a user-specified threshold. The proposed algorithm is compared to several state-of-the-art chance-constrained and deterministic methods in simulation, and is shown to consistently outperform them in a variety of driving scenarios. A demonstration of the proposed framework on hardware is also provided.</p>
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/REFINE-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/REFINE-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/REFINE-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/REFINE.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="REFINE.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="TRO 2022" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">REFINE: Reachability-based Trajectory Design using Robust Feedback Linearization and Zonotopes</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        </div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>2nd round review at  IEEE Transactions on Robotics (T-RO)</em>, 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="/assets/pdf/REFINE.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/roahmlab/REFINE" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Performing real-time receding horizon motion planning for autonomous vehicles while providing safety guarantees remains difficult. This is because existing methods to accurately predict ego vehicle behavior under a chosen controller use online numerical integration that requires a fine time discretization and thereby adversely affects real-time performance. To address this limitation, several recent papers have proposed to apply offline reachability analysis to conservatively predict the behavior of the ego vehicle. This reachable set can be constructed by utilizing a simplified model whose behavior is assumed a priori to conservatively bound the dynamics of a full-order model. However, guaranteeing that one satisfies this assumption is challenging. This paper proposes a framework named REFINE to overcome the limitations of these existing approaches. REFINE utilizes a parameterized robust controller that partially linearizes the vehicle dynamics even in the presence of modeling error. Zonotope-based reachability analysis is then performed on the closed-loop, full-order vehicle dynamics to compute the corresponding control-parameterized, over-approximate Forward Reachable Sets (FRS). Because reachability analysis is applied to the full-order model, the potential conservativeness introduced by using a simplified model is avoided. The pre-computed, control-parameterized FRS is then used online in an optimization framework to ensure safety. The proposed method is compared to several state of the art methods during a simulation-based evaluation on a full-size vehicle model and is evaluated on a 1/10th race car robot in real hardware testing. In contrast to existing methods, REFINE is shown to enable the vehicle to safely navigate itself through complex environments.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/bipedal-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/bipedal-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/bipedal-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/bipedal.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="bipedal.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="ICRA 2020" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Leveraging the Template and Anchor Framework for Safe, Online Robotic Gait Design</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        </div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2020
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="/assets/pdf/bipedal.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/pczhao/TA_GaitDesign" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Online control design using a high-fidelity, full-order model for a bipedal robot can be challenging due to the size of the state space of the model. A commonly adopted solution to overcome this challenge is to approximate the full-order model (anchor) with a simplified, reduced-order model (template), while performing control synthesis. Unfortunately it is challenging to make formal guarantees about the safety of an anchor model using a controller designed in an online fashion using a template model. To address this problem, this paper proposes a method to generate safety-preserving controllers for anchor models by performing reachability analysis on template models while bounding the modeling error. This paper describes how this reachable set can be incorporated into a Model Predictive Control framework to select controllers that result in safe walking on the anchor model in an online fashion. The method is illustrated on a 5-link RABBIT model, and is shown to allow the robot to walk safely while utilizing controllers designed in an online fashion.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
           </div>
 
 
