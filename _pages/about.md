@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: jinsunl [at] umich [dot] edu / (734)-355-2021
+subtitle: jinsunl [at] umich [dot] edu
 
 profile:
   align: right
