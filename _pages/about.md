@@ -25,7 +25,7 @@ I am a Postdoc Researcher in the [Robotics Department](https://robotics.umich.ed
 Currently I am part of the Robotics and Optimization for the Analysis of Human Motion ([ROAHM](http://www.roahmlab.com/)) Lab advised by [Prof. Ram Vasudevan](http://www.roahmlab.com/ram-personal), and am working on real-time motion planing in determistic and uncertain environments using reachability analysis. 
 
 I earned my Ph.D. in Robotics and M.S. in [Electrical and Computer Engineering](https://ece.engin.umich.edu/) both from the University of Michigan, Ann Arbor. 
-Priori to that, I reveiced my B.E. in Electrical and Computer Engineering from the [University of Minnesota, Twin Cities](https://cse.umn.edu/college/departments/department-electrical-and-computer-engineering) advised by [Prof. Andrew Lamperski](https://cse.umn.edu/ece/andrew-lamperski).
+Prior to that, I reveiced my B.E. in Electrical and Computer Engineering from the [University of Minnesota, Twin Cities](https://cse.umn.edu/college/departments/department-electrical-and-computer-engineering) advised by [Prof. Andrew Lamperski](https://cse.umn.edu/ece/andrew-lamperski).
 I also hold another B.E. in Electrical Engineering from [Beijing Jiaotong University](http://en.ee.bjtu.edu.cn/). 
 
 My research interests are in Robotics, Motion Planning, and Optimization.
