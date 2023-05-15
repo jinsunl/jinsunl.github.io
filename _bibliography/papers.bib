@@ -3,82 +3,89 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
+@ARTICLE{RSS2023,
+  title={RADIUS: Risk-Aware, Real-Time, Reachability-Based Motion Planning},
+  author={Jinsun Liu, Challen Enninful Adu, Lucas Lymburner, Vishrut Kaushik, Lena Trang, and Ram Vasudevan},
+  abstract={Deterministic methods for motion planning guarantee safety amidst uncertainty in obstacle locations by trying to restrict the robot from operating in any possible location that an obstacle could be in. Unfortunately, this can result in overly conservative behavior. Chance-constrained optimization can be applied to improve the performance of motion planning algorithms by allowing for a user-specified amount of bounded constraint violation. However, state-of-the-art methods rely either on moment-based inequalities, which can be overly conservative, or make it difficult to satisfy assumptions about the class of probability distributions used to model uncertainty. However, state-of-the-art methods rely either on moment-based inequalities, which can be overly conservative, or make it difficult to satisfy assumptions about the class of probability distributions used to model uncertainty. However, state-of-the-art methods rely either on moment-based inequalities, which can be overly conservative, or make it difficult to satisfy assumptions about the class of probability distributions used to model uncertainty. To address these challenges, this work proposes a real-time, risk-aware reachability based motion planning framework called RADIUS. The method first generates a reachable set of parameterized trajectories for the robot offline. At run time, RADIUS computes a closed-form over-approximation of the risk of a collision with an obstacle. This is done without restricting the probability distribution used to model uncertainty to a simple class (e.g., Gaussian). Then, RADIUS performs real-time optimization to construct a trajectory that can be followed by the robot in a manner that is certified to have a risk of collision that is less than or equal to a user-specified threshold. The proposed algorithm is compared to several state-of-the-art chance-constrained and deterministic methods in simulation, and is shown to consistently outperform them in a variety of driving scenarios. A demonstration of the proposed framework on hardware is also provided.},
+  journal={Robotics: Science and Systems (RSS)},
+  year={2023},
+  abbr={RSS},
+  url={https://roahmlab.github.io/Risk_RTD/},
+  code={https://github.com/roahmlab/Risk_RTD},
+  pdf={RADIUS.pdf},
+  preview={RSS.png},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@ARTICLE{TRO 2022,
+  title={REFINE: Reachability-based Trajectory Design using Robust Feedback Linearization and Zonotopes},
+  author={Jinsun Liu, Yifei Shao, Lucas Lymburner, Hansen Qin, Vishrut Kaushik, Lena Trang, Ruiyang Wang, Vladimir Ivanovic, H. Eric Tseng, Ram Vasudevan},
+  abstract={Performing real-time receding horizon motion planning for autonomous vehicles while providing safety guarantees remains difficult. This is because existing methods to accurately predict ego vehicle behavior under a chosen controller use online numerical integration that requires a fine time discretization and thereby adversely affects real-time performance. To address this limitation, several recent papers have proposed to apply offline reachability analysis to conservatively predict the behavior of the ego vehicle. This reachable set can be constructed by utilizing a simplified model whose behavior is assumed a priori to conservatively bound the dynamics of a full-order model. However, guaranteeing that one satisfies this assumption is challenging. This paper proposes a framework named REFINE to overcome the limitations of these existing approaches. REFINE utilizes a parameterized robust controller that partially linearizes the vehicle dynamics even in the presence of modeling error. Zonotope-based reachability analysis is then performed on the closed-loop, full-order vehicle dynamics to compute the corresponding control-parameterized, over-approximate Forward Reachable Sets (FRS). Because reachability analysis is applied to the full-order model, the potential conservativeness introduced by using a simplified model is avoided. The pre-computed, control-parameterized FRS is then used online in an optimization framework to ensure safety. The proposed method is compared to several state of the art methods during a simulation-based evaluation on a full-size vehicle model and is evaluated on a 1/10th race car robot in real hardware testing. In contrast to existing methods, REFINE is shown to enable the vehicle to safely navigate itself through complex environments.},
+  journal={2nd round review at  IEEE Transactions on Robotics (T-RO)},
+  year={2022},
+  abbr={TRO},
+  code={https://github.com/roahmlab/REFINE},
+  pdf={REFINE.pdf},
+  preview={REFINE.png},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@ARTICLE{ICRA 2020,
+  title={Leveraging the Template and Anchor Framework for Safe, Online Robotic Gait Design},
+  author={Jinsun Liu, Pengcheng Zhao, Zhenyu Gan, Matthew Johnson-Roberson, and Ram Vasudevan},
+  abstract={Online control design using a high-fidelity, full-order model for a bipedal robot can be challenging due to the size of the state space of the model. A commonly adopted solution to overcome this challenge is to approximate the full-order model (anchor) with a simplified, reduced-order model (template), while performing control synthesis. Unfortunately it is challenging to make formal guarantees about the safety of an anchor model using a controller designed in an online fashion using a template model. To address this problem, this paper proposes a method to generate safety-preserving controllers for anchor models by performing reachability analysis on template models while bounding the modeling error. This paper describes how this reachable set can be incorporated into a Model Predictive Control framework to select controllers that result in safe walking on the anchor model in an online fashion. The method is illustrated on a 5-link RABBIT model, and is shown to allow the robot to walk safely while utilizing controllers designed in an online fashion.},
+  journal={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2020},
+  abbr={ICRA},
+  code={https://github.com/pczhao/TA_GaitDesign},
+  pdf={bipedal.pdf},
+  preview={bipedal.png},
+  selected={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@ARTICLE{ICRA 2019,
+  title={Guaranteed Globally Optimal Planar Pose Graph and Landmark SLAM via Sparse-Bounded Sums-of-Squares Programming},
+  author={Joshua Mangelson, Jinsun Liu, Ryan Eustice, and Ram Vasudevan},
+  abstract={Autonomous navigation requires an accurate model or map of the environment. While dramatic progress in the prior two decades has enabled large-scale simultaneous localization and mapping (SLAM), the majority of existing methods rely on non-linear optimization techniques to find the maximum likelihood estimate (MLE) of the robot trajectory and surrounding environment. These methods are prone to local minima and are thus sensitive to initialization. Several recent papers have developed optimization algorithms for the Pose-Graph SLAM problem that can certify the optimality of a computed solution. Though this does not guarantee a priori that this approach generates an optimal solution, a recent extension has shown that when the noise lies within a critical threshold that the solution to the optimization algorithm is guaranteed to be optimal. To address the limitations of existing approaches, this paper illustrates that the Pose-Graph SLAM and Landmark SLAM can be formulated as polynomial optimization programs that are sum-of-squares (SOS) convex. This paper then describes how the Pose-Graph and Landmark SLAM problems can be solved to a global minimum without initialization regardless of noise level using the sparse bounded degree sum-of-squares (Sparse-BSOS) hierarchy. This paper also empirically illustrates that convergence happens at the second step in this hierarchy. In addition, this paper illustrates how this Sparse-BSOS hierarchy can be implemented in the complex domain and empirically shows that convergence happens also at the second step of this complex domain hierarchy. Finally, the superior performance of the proposed approach when compared to existing SLAM methods is illustrated on graphs with several hundred nodes.},
+  journal={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2019},
+  abbr={ICRA},
+  html={https://arxiv.org/abs/1809.07744},
+  preview={SLAM.png}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@ARTICLE{ICRA 2018,
+  title={Robust Environmental Mapping by Mobile Sensor Networks},
+  author={Hyungju Park, Jinsun Liu, Matthew Johnson-Roberson, and Ram Vasudevan},
+  abstract={Constructing a spatial map of environmental parameters is a crucial step to preventing hazardous chemical leakages, forest fires, or while estimating a spatially distributed physical quantities such as terrain elevation. Although prior methods can do such mapping tasks efficiently via dispatching a group of autonomous agents, they are unable to ensure satisfactory convergence to the underlying ground truth distribution in a decentralized manner when any of the agents fail. Since the types of agents utilized to perform such mapping are typically inexpensive and prone to failure, this results in poor overall mapping performance in real-world applications, which can in certain cases endanger human safety. This paper presents a Bayesian approach for robust spatial mapping of environmental parameters by deploying a group of mobile robots capable of ad-hoc communication equipped with short-range sensors in the presence of hardware failures. Our approach first utilizes a variant of the Voronoi diagram to partition the region to be mapped into disjoint regions that are each associated with at least one robot. These robots are then deployed in a decentralized manner to maximize the likelihood that at least one robot detects every target in their associated region despite a non-zero probability of failure. A suite of simulation results is presented to demonstrate the effectiveness and robustness of the proposed method when compared to existing techniques.},
+  journal={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2018},
+  abbr={ICRA},
+  html={https://arxiv.org/abs/1711.07510},
+  preview={hyongju.png}
+}
+
+@ARTICLE{ICRA 2017,
+  title={Synthesizing the Optimal Luenberger-type Observer for Nonlinear Systems},
+  author={Shankar Mohan, Jinsun Liu and Ram Vasudevan},
+  abstract={Observer design typically requires the observability of the underlying system to guarantee asymptotic convergence of errors. Unfortunately verifying the observability of an underlying nonlinear system may be challenging. Moreover, ensuring asymptotic convergence may be insufficient to certify satisfaction of performance constraints in finite time. This paper develops a method to design Luenberger-type observers for nonlinear systems that guarantee the largest possible domain of attraction for the state estimation error regardless of the initialization of the system without requiring a priori certification of observability. The observer design procedure is posed as a two-step problem. In the the first step, the error dynamics are abstractly represented as a linear equation on the space of Radon measures. Thereafter, the problem of identifying the largest set of initial errors that can be driven to within the userspecified error target set in finite-time for all possible initial states, and the corresponding observer gains, is formulated as an infinite-dimensional linear program on measures. This optimization problem is solved, using Lasserre’s relaxations via a sequence of semidefinite programs with vanishing conservatism. By post-processing the solution of step one, the set of gains that maximize the size of tolerable initial errors is identified in step two. Two examples are presented to demonstrate the feasibility of the presented approach.},
+  journal={IEEE Conference on Decision and Control (CDC)},
+  year={2017},
+  abbr={CDC},
+  pdf={observer.pdf},
+  html={https://ieeexplore.ieee.org/document/8264197},
+  preview={observer.png}
+}
+
+@ARTICLE{ACC 2016,
+  title={(Un)ambiguous Optimal Control},
+  author={Andrew Lamperski, Bolei Di, Tyler Lekang, Jinsun Liu, and Ran Tian},
+  abstract={Constructing a spatial map of environmental parameters is a crucial step to preventing hazardous chemical leakages, forest fires, or while estimating a spatially distributed physical quantities such as terrain elevation. Although prior methods can do such mapping tasks efficiently via dispatching a group of autonomous agents, they are unable to ensure satisfactory convergence to the underlying ground truth distribution in a decentralized manner when any of the agents fail. Since the types of agents utilized to perform such mapping are typically inexpensive and prone to failure, this results in poor overall mapping performance in real-world applications, which can in certain cases endanger human safety. This paper presents a Bayesian approach for robust spatial mapping of environmental parameters by deploying a group of mobile robots capable of ad-hoc communication equipped with short-range sensors in the presence of hardware failures. Our approach first utilizes a variant of the Voronoi diagram to partition the region to be mapped into disjoint regions that are each associated with at least one robot. These robots are then deployed in a decentralized manner to maximize the likelihood that at least one robot detects every target in their associated region despite a non-zero probability of failure. A suite of simulation results is presented to demonstrate the effectiveness and robustness of the proposed method when compared to existing techniques.},
+  journal={American Control Conference (ACC)},
+  year={2016},
+  abbr={ACC},
+  pdf={ACC.pdf},
+  html={https://ieeexplore.ieee.org/document/7525064},
+  preview={ACC.png}
 }

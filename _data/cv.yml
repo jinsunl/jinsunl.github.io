@@ -2,96 +2,74 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Jinsun Liu
     - name: Languages
-      value: English, German
+      value: English, Mandarin
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: PhD in Robotics
+      institution: University of Michigan, Ann Arbor, MI
+      year: 2023
+    - title: MS in ELectrical and Computer Engineering
+      institution: University of Michigan, Ann Arbor, MI
+      year: 2017
+    - title: BE in Electrical and Computer Engineering
+      institution: University of Minnesota, Minneapolis, MN
+      year: 2015
+    - title: BE in Electrical Engineering
+      institution: Beijing Jiaotong University, Beijing, China
+      year: 2015
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Postdoc Researcher
+      institution: University of Michigan, Ann Arbor, MI
+      year: PRESENT
+    - title: Software Engineer Intern
+      institution: Beijing Yiqitong Info. Tech. Co., Ltd., Beijing, China
+      year: 2011, 2012
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: 2022
+      title: Richard F. & Eleanor A. Towner Prize for Distinguished Academic Achievement 
+    - year: 2022
+      title: Nominee for the Outstanding Graduate Student Instructor Awards
+    - year: 2014, 2015
+      title: Dean's List
+    - year: 2012, 2013
+      title: Learning Scholarship
 
-- title: Academic Interests
-  type: nested_list
+
+- title: Service
+  type: time_table
   contents:
-    - title: Topic 1.
+    - title: Graduate Student Instructor
+      year: 2019 - 2021
+      institution: University of Michigan
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - ROB 535 | Self-Driving Cars - Perception and Control
+        - ME 461 | Automatic Control
+        - ME 561 | Design of Digital Control Systems
+    - title: Reviewer
+      year: 2017 - PRESENT
+      items: 
+        - Robotics Science and Systems(RSS)
+        - IEEE Transactions on Mechatronics(TMECH)
+        - IEEE Transactions on Robotics(T-RO)
+        - IEEE International Conference on Robotics and Automation(ICRA)
+        - American Control Conference(ACC)
+    - title: Co-Chair
+      year: 2017
+      institution: IEEE Conference on Decision and Control
+
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> game, poker, music, cooking, travel
