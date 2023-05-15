@@ -1,3 +1,11 @@
+```
+bundler install
+bundle exec jekyll serve
+```
+on Windows, comment out `gem 'mini_racer'` in `Gemfile`, and disable imagemagick in '_config.yml'
+
+
+
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
