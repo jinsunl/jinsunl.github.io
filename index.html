@@ -201,7 +201,20 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
         <div class="author">
         
 
-        </div>
+        Jinsun Liu, Challen Enniful Adu, Lucas Lymburner, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '3 more authors' ? 'Vishrut Kaushik, Lena Trang, Ram Vasudevan' : '3 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">3 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -258,7 +271,20 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
         <div class="author">
         
 
-        </div>
+        Jinsun Liu, Yifei Shao, Lucas Lymburner, and
+          <span class="more-authors" title="click to view 7 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '7 more authors' ? 'Hansen Qin, Vishrut Kaushik, Lena Trang, Ruiyang Wang, Vladimir Ivanovic, H. Eric Tseng, Ram Vasudevan' : '7 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">7 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -315,7 +341,20 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
         <div class="author">
         
 
-        </div>
+        Jinsun Liu, Pengcheng Zhao, Zhenyu Gan, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Matthew Johnson-Roberson, Ram Vasudevan' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -375,7 +414,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Jinsun  Liu. Last updated: May 26, 2023.
+        © Copyright 2023 Jinsun  Liu. Last updated: July 05, 2023.
       </div>
     </footer>
 
